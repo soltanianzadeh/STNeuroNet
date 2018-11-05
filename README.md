@@ -20,6 +20,7 @@ You can adapt the existing network to your imaging data.
 3. MATLAB engine: 
 
  <sup>Note for Tensorflow 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
+  
  <sup>All other STNeuroNet dependencies are installed automatically as part of the pip installation process.
 
 [tf-pypi-gpu]: https://pypi.org/project/tensorflow-gpu/
