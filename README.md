@@ -1,30 +1,26 @@
 # STNeuroNet
 
-NiftyNet is a [TensorFlow][tf]-based open-source convolutional neural networks (CNN) platform for research in medical image analysis and image-guided therapy.
-NiftyNet's modular structure is designed for sharing networks and pre-trained models.
-Using this modular structure you can:
-
-* Get started with established pre-trained networks using built-in tools
-* Adapt existing networks to your imaging data
-* Quickly build new solutions to your own image analysis problems
+STNeuroNet is 3-dimensional convolutional neural network (CNN) for segmenting "active" neurons from calcium imaging data. The network was implemented through NiftyNet, a TensorFlow-based open-source CNN platform.
+You can adapt the existing network to your imaging data.
 
 
 ### Features
 
-* 
-*
+* Pre- and post-processing steps for segmenting active neurons
+* A 3D CNN for batch-processing of calcium imaging data
+* MATLAB GUI for manual marking of calcium imaging data
 
 
 ### Installation
 
-1. Please install the appropriate [TensorFlow][tf] package*:
+1. Please install the appropriate TensorFlow package*:
    * [`pip install tensorflow-gpu==1.4`][tf-pypi-gpu] for TensorFlow with GPU support
    * [`pip install tensorflow==1.4`][tf-pypi] for CPU-only TensorFlow
 2. [`pip install stneuronet`](https://pypi.org/project/STNeuroNet/)
+3. MATLAB engine: 
 
+ <sup>Note for Tensorflow 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
  <sup>All other STNeuroNet dependencies are installed automatically as part of the pip installation process.
-
-To install from the source repository, please checkout [the instructions](http://niftynet.readthedocs.io/en/dev/installation.html).</sup>
 
 [tf-pypi-gpu]: https://pypi.org/project/tensorflow-gpu/
 [tf-pypi]: https://pypi.org/project/tensorflow/
@@ -37,19 +33,16 @@ The API reference and how-to guides are available on [Read the Docs][rtd-niftyne
 
 ### Useful links
 
-[NiftyNet website][niftynet-io]
-
 [NiftyNet source code on GitHub][niftynet-github]
 
-[niftynet-io]: http://niftynet.io/
 [niftynet-github]: https://github.com/NifTK/NiftyNet
 
 
-### Citing STNeuroNet
+### Citing 
 
-If yo use STNeuroNet in your work, please cite Soltanian-Zadeh et al. 2018:
+If yo use any part of this software in your work, please cite Soltanian-Zadeh et al. 2018:
 
-* S. SOltanian-Zadeh,et al., "Fast and robust active neuron
+* S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron
 segmentation in two-photon calcium imaging using spatio-temporal deep-learning," 2018.
 
 
@@ -72,8 +65,7 @@ DOI: [10.1007/978-3-319-59050-9_28][ipmi2017]
 
 ### Licensing and Copyright
 
-NiftyNet is released under [the Apache License, Version 2.0](https://github.com/NifTK/NiftyNet/blob/dev/LICENSE).
-
-Copyright 2018 the NiftyNet Consortium.
+STNeuroNet is released under [the GNU License, Version 2.0](https://github.com/soltanianzadeh/STNeuroNet/LICENSE).
 
 ### Acknowledgements
+We thank David Feng and Jerome Lecoq from the Allen Institute for providing the ABO data, Saskia de Vries and David Feng from the Allen Institute for useful discussions, and Hao Zhao for the initial implementation of the GUI. 
