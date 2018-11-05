@@ -38,8 +38,15 @@ You can adapt the existing network to your imaging data.
    cd <matlabroot>/extern/engines/python
    python setup.py install   
    ```
-4. Download and install the Windows version of the MATLAB Runtime for R2017b 
-from the following link on the [MathWorks website][matlab-runtime]
+4. If the MATLAB Runtime is not installed, you can run the MATLAB Runtime installer.
+	  To find its location, enter
+   ```
+    >>mcrinstaller
+   ```
+   
+   at the MATLAB prompt. Alternatively, download and install the Windows version of the MATLAB Runtime for R2017b 
+   from the following link on the [MathWorks website][matlab-runtime]
+
 5. pip install stneuronet_dependencies (alternative: cd <coderoot>, python setup.py install)
 
  <sup>Note for Tensorflow 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
