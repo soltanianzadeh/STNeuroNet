@@ -10,34 +10,62 @@ You can adapt the existing network to your imaging data.
 * A 3D CNN for batch-processing of calcium imaging data
 * MATLAB GUI for manual marking of calcium imaging data
 
+### System Requirements
+* python 3.6
+* MATLAB 2017b and MATLAB Runtime version 9.3
+  * Neural Network Toolbox, Image Processing Toolbox, and the [GUI Layout Toolbox][gui-toolbox]
+* Tensorflow
+* CUDA and cuDNN
+* NiftyNet
+
+[gui-toolbox]: https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox
 
 ### Installation
 
-1. Please install the appropriate TensorFlow package*:
+1. Please install the appropriate TensorFlow package:
    * [`pip install tensorflow-gpu==1.4`][tf-pypi-gpu] for TensorFlow with GPU support
    * [`pip install tensorflow==1.4`][tf-pypi] for CPU-only TensorFlow
+   
+   For further details, please refer to [Tensorflow website][tf-install]
 2. [`pip install stneuronet`](https://pypi.org/project/STNeuroNet/)
-3. MATLAB engine: 
+3. MATLAB engine API:
+   ```
+   # For Windows OS
+   cd <matlabroot>\extern\engines\python
+   python setup.py install
+   
+   # For macOS or Linux OS
+   cd <matlabroot>/extern/engines/python
+   python setup.py install   
+   ```
+4. Download and install the Windows version of the MATLAB Runtime for R2017b 
+from the following link on the [MathWorks website][matlab-runtime]
+5. pip install stneuronet_dependencies (alternative: cd <coderoot>, python setup.py install)
 
  <sup>Note for Tensorflow 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
-  
+ 
  <sup>All other STNeuroNet dependencies are installed automatically as part of the pip installation process.
 
+[tf-install]: https://www.tensorflow.org/install/pip
 [tf-pypi-gpu]: https://pypi.org/project/tensorflow-gpu/
 [tf-pypi]: https://pypi.org/project/tensorflow/
-
+[matlab-runtime]: http://www.mathworks.com/products/compiler/mcr/index.html
 
 ### Documentation
-The API reference and how-to guides are available on [Read the Docs][rtd-niftynet].
+The how-to guides are available on [the Wiki][wiki-link].
 
-[rtd-niftynet]: https://github.com/soltanianzadeh/STNeuroNet
+[wiki-link]: https://github.com/soltanianzadeh/STNeuroNet/wiki
 
 ### Useful links
+[Allen Brain Observatory dataset][Allen-github]
+
+[Neurofinder Challenge website][nf-website]
 
 [NiftyNet source code on GitHub][niftynet-github]
 
+[Allen-github]: https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS
 [niftynet-github]: https://github.com/NifTK/NiftyNet
-
+[nf-website]: http://neurofinder.codeneuro.org/
 
 ### Citing 
 
@@ -70,3 +98,4 @@ STNeuroNet is released under [the GNU License, Version 2.0](https://github.com/s
 
 ### Acknowledgements
 We thank David Feng and Jerome Lecoq from the Allen Institute for providing the ABO data, Saskia de Vries and David Feng from the Allen Institute for useful discussions, and Hao Zhao for the initial implementation of the GUI. 
+
