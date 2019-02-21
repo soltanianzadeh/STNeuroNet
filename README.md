@@ -11,12 +11,11 @@ You can adapt the existing network to your imaging data.
 * MATLAB GUI for manual marking of calcium imaging data
 
 ### System Requirements
-* python 3.6
+* Anaconda with Python 3.6
 * MATLAB 2017b and MATLAB Runtime version 9.3
   * Neural Network Toolbox, Image Processing Toolbox, and the [GUI Layout Toolbox][gui-toolbox]
-* Tensorflow
-* CUDA and cuDNN
-* NiftyNet
+* Tensorflow-gpu 1.4 (CUDA Toolkit 8.0 and cuDNN v7.0 required. Detailed instructions can be found [here][cuda-link].)
+* NiftyNet 
 
 [gui-toolbox]: https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox
 
@@ -26,7 +25,7 @@ You can adapt the existing network to your imaging data.
    * [`pip install tensorflow-gpu==1.4`][tf-pypi-gpu] for TensorFlow with GPU support
    * [`pip install tensorflow==1.4`][tf-pypi] for CPU-only TensorFlow
    
-   For further details, please refer to [Tensorflow website][tf-install]
+   You would need to install CUDA8 and cuDNN7 prior to installing Tensorflow-gpu. For further details, please refer to [Tensorflow website][tf-install]
 2. [`pip install stneuronet`](https://pypi.org/project/STNeuroNet/)
 3. MATLAB engine API:
    ```
@@ -38,7 +37,7 @@ You can adapt the existing network to your imaging data.
    cd <matlabroot>/extern/engines/python
    python setup.py install   
    ```
-4. If the MATLAB Runtime is not installed, you can run the MATLAB Runtime installer.
+4. If the MATLAB Runtime 9.3 is not installed, you can run the MATLAB Runtime installer.
 	  To find its location, enter
    ```
     >>mcrinstaller
@@ -49,10 +48,11 @@ You can adapt the existing network to your imaging data.
 
 5. pip install stneuronet_dependencies (alternative: cd <coderoot>, python setup.py install)
 
- <sup>Note for Tensorflow 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
+ <sup>Note for Tensorflow-gpu 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
  
  <sup>All other STNeuroNet dependencies are installed automatically as part of the pip installation process.
 
+[cuda-link]: https://www.tensorflow.org/install/gpu
 [tf-install]: https://www.tensorflow.org/install/pip
 [tf-pypi-gpu]: https://pypi.org/project/tensorflow-gpu/
 [tf-pypi]: https://pypi.org/project/tensorflow/
