@@ -15,48 +15,9 @@ You can adapt the existing network to your imaging data.
 * MATLAB 2017b and MATLAB Runtime version 9.3
   * Neural Network Toolbox, Image Processing Toolbox, and the [GUI Layout Toolbox][gui-toolbox]
 * Tensorflow-gpu 1.4 (CUDA Toolkit 8.0 and cuDNN v7.0 required. Detailed instructions can be found [here][cuda-link].)
-* NiftyNet 
+* NiftyNet version 0.2.0.post1
 
 [gui-toolbox]: https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox
-
-### Installation
-
-1. Please install the appropriate TensorFlow package:
-   * [`pip install tensorflow-gpu==1.4`][tf-pypi-gpu] for TensorFlow with GPU support
-   * [`pip install tensorflow==1.4`][tf-pypi] for CPU-only TensorFlow
-   
-   You would need to install CUDA8 and cuDNN7 prior to installing Tensorflow-gpu. For further details, please refer to [Tensorflow website][tf-install]
-2. [`pip install stneuronet`](https://pypi.org/project/STNeuroNet/)
-3. MATLAB engine API:
-   ```
-   # For Windows OS
-   cd <matlabroot>\extern\engines\python
-   python setup.py install
-   
-   # For macOS or Linux OS
-   cd <matlabroot>/extern/engines/python
-   python setup.py install   
-   ```
-4. If the MATLAB Runtime 9.3 is not installed, you can run the MATLAB Runtime installer.
-	  To find its location, enter
-   ```
-    >>mcrinstaller
-   ```
-   
-   at the MATLAB prompt. Alternatively, download and install the Windows version of the MATLAB Runtime for R2017b 
-   from the following link on the [MathWorks website][matlab-runtime]
-
-5. pip install stneuronet_dependencies (alternative: cd <coderoot>, python setup.py install)
-
- <sup>Note for Tensorflow-gpu 1.4 you need CUDA Toolkit 8.0 and cuDNN v7.0
- 
- <sup>All other STNeuroNet dependencies are installed automatically as part of the pip installation process.
-
-[cuda-link]: https://www.tensorflow.org/install/gpu
-[tf-install]: https://www.tensorflow.org/install/pip
-[tf-pypi-gpu]: https://pypi.org/project/tensorflow-gpu/
-[tf-pypi]: https://pypi.org/project/tensorflow/
-[matlab-runtime]: http://www.mathworks.com/products/compiler/mcr/index.html
 
 ### Documentation
 The how-to guides are available on [the Wiki][wiki-link].
@@ -64,15 +25,20 @@ The how-to guides are available on [the Wiki][wiki-link].
 [wiki-link]: https://github.com/soltanianzadeh/STNeuroNet/wiki
 
 ### Useful links
+
+[NiftyNet source code on GitHub][niftynet-github]
+
+#### Link to Datasets:
+
 [Allen Brain Observatory dataset][Allen-github]
 
 [Neurofinder Challenge website][nf-website]
 
-[NiftyNet source code on GitHub][niftynet-github]
+
 
 [Allen-github]: https://github.com/AllenInstitute/AllenSDK/wiki/Use-the-Allen-Brain-Observatory-%E2%80%93-Visual-Coding-on-AWS
 [niftynet-github]: https://github.com/NifTK/NiftyNet
-[nf-website]: http://neurofinder.codeneuro.org/
+[nf-website]: https://github.com/codeneuro/neurofinder
 
 ### Citing 
 
