@@ -6,9 +6,9 @@ shows how to apply a trained network on a dataset from Allen
 @author: Somayyeh Soltanian-Zadeh
 %
 % Please cite this paper if you use any component of this software:
-% S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast 
-% and robust active neuron segmentation in two-photon calcium imaging using 
-% spatio-temporal deep learning," Submitted to PNAS.
+% S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust  
+% active neuron segmentation in two-photon calcium imaging using spatio-temporal
+% deep learning," Proceedings of the National Academy of Sciences (PNAS), 2019.
 %
 % Released under a GPL v2 license.
 
