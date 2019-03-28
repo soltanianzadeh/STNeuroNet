@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-29999"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-6000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-12000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-18000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-24000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\neurofinder\\models\\Homo\\All\\models\\model.ckpt-29999"

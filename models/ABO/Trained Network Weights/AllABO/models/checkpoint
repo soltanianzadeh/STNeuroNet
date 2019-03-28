@@ -1,0 +1,6 @@
+model_checkpoint_path: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-59999"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-40000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-45000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-50000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-55000"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\allWhitened\\models\\model.ckpt-59999"

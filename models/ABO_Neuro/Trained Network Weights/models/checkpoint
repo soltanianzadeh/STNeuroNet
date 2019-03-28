@@ -1,0 +1,2 @@
+model_checkpoint_path: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\Allen_Neuro\\models\\model.ckpt-34999"
+all_model_checkpoint_paths: "D:\\FarsiuPrivate\\Soltanian-Zadeh\\NiftyNet\\Allen\\models\\LOO\\SNR\\Allen_Neuro\\models\\model.ckpt-34999"
