@@ -27,10 +27,10 @@ opt.type = 'Layer275';          % Type of data. For the 'Allen' data, this is ei
                                 % or 'train'. 
 
 opt.marking = 'Allen';        % Type of marking to show. For the 'Allen' data, this is either 
-                                % 'Allen' or 'FinalGT', denoting Allen's initial marking or 
-                                % the final curated masks. For 'Neurofinder' this is
-                                % 'neurofinder' or 'Grader1'. Not that if 'test' is selected   
-                                % for the 'Neurofinder' data, there is no 'neurofinder' mask.
+                                % 'Allen','FinalGT', 'Grader3', or 'Grader4', denoting Allen's initial marking, 
+                                % final curated masks, grader 3's markings or grader 4'2 markings.
+                                % For 'Neurofinder' this is'neurofinder' or 'Grader1'.    
+                                % Not that if 'test' is selected for the 'Neurofinder' data, there is no 'neurofinder' mask.
 
 RunViewMarking(opt);
 
