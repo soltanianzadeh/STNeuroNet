@@ -14,10 +14,13 @@ You can adapt the existing network to your imaging data.
 * Anaconda with Python 3.6
 * MATLAB 2017b and MATLAB Runtime version 9.3
   * Neural Network Toolbox, Image Processing Toolbox, and the [GUI Layout Toolbox][gui-toolbox]
+  * MATLAB Runtime can be acquired from [here][runtime-link]
 * Tensorflow-gpu 1.4 (CUDA Toolkit 8.0 and cuDNN v7.0 required. Detailed instructions can be found [here][cuda-link].)
 * NiftyNet version 0.2.0.post1
 
 [gui-toolbox]: https://www.mathworks.com/matlabcentral/fileexchange/47982-gui-layout-toolbox
+[runtime-link]: https://www.mathworks.com/products/compiler/matlab-runtime.html
+[cuda-link]: https://www.tensorflow.org/install/gpu
 
 ### Documentation
 The how-to guides are available on [the Wiki][wiki-link].
