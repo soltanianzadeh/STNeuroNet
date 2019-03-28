@@ -1,0 +1,11 @@
+channels:
+- nodefaults
+dependencies:
+- python=3.6
+- scipy
+- cython
+- h5py
+- matplotlib
+- numpy
+- spyder
+- pathlib
