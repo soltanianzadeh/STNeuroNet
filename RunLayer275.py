@@ -6,9 +6,9 @@ Script to run trained networks on all Layer275 data
 @author: Somayyeh Soltanian-Zadeh
 %
 % Please cite this paper if you use any component of this software:
-% S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast 
-% and robust active neuron segmentation in two-photon calcium imaging using 
-% spatio-temporal deep learning," Submitted to PNAS.
+% S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust  
+% active neuron segmentation in two-photon calcium imaging using spatio-temporal
+% deep learning," Proceedings of the National Academy of Sciences (PNAS), 2019.
 %
 % Released under a GPL v2 license."""
 import os
