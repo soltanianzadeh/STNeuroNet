@@ -20,7 +20,7 @@ switch opt.dataset
         if ~(strcmp(opt.type,'Layer275') || strcmp(opt.type,'Layer175'))
             error('Unknown Layer.');
         end
-        if ~(strcmp(opt.marking,'Allen') || strcmp(opt.marking,'Grader1') || strcmp(opt.marking,'Grader3'))
+        if ~(strcmp(opt.marking,'Allen') || strcmp(opt.marking,'FinalGT') || strcmp(opt.marking,'Grader3')|| strcmp(opt.marking,'Grader4'))
             error('Unknown marking type.');
         end        
         %%%%%Read data
