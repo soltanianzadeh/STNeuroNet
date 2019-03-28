@@ -76,10 +76,10 @@ The how-to guides are available on [the Wiki][wiki-link].
 
 ### Citing 
 
-If yo use any part of this software in your work, please cite Soltanian-Zadeh et al. 2018:
+If you use any part of this software in your work, please cite Soltanian-Zadeh et al. 2019:
 
 * S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron
-segmentation in two-photon calcium imaging using spatio-temporal deep-learning," 2018.
+segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 2019.
 
 
 If you use NiftyNet in your work, please cite [Gibson and Li, et al. 2018][cmpb2018]:
@@ -104,5 +104,5 @@ DOI: [10.1007/978-3-319-59050-9_28][ipmi2017]
 STNeuroNet is released under [the GNU License, Version 2.0](https://github.com/soltanianzadeh/STNeuroNet/LICENSE).
 
 ### Acknowledgements
-We thank David Feng and Jerome Lecoq from the Allen Institute for providing the ABO data, Saskia de Vries and David Feng from the Allen Institute for useful discussions, and Hao Zhao for the initial implementation of the GUI. 
+We thank David Feng and Jerome Lecoq from the Allen Institute for providing the ABO data, Saskia de Vries and David Feng from the Allen Institute for useful discussions, Hao Zhao for the initial implementation of the GUI, and Leon Kwark for the manual marking of the data. 
 
