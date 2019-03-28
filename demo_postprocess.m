@@ -6,7 +6,7 @@ addpath(genpath('Software'))
 name = '524691284';
 DirProbMap = ['Results',filesep,'ABO',filesep,'Probability map',filesep];
 DirData = ['Dataset',filesep,'ABO',filesep];
-DirGTMasks = ['Markings',filesep,'ABO',filesep,'Layer275',filesep,'Grader1',filesep];
+DirGTMasks = ['Markings',filesep,'ABO',filesep,'Layer275',filesep,'FinalGT',filesep];
 DirThresh = ['Results',filesep,'ABO',filesep,'Thresholds',filesep];
 
 %% Data order (DO NOT change)
