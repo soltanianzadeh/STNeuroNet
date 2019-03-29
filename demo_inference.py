@@ -56,7 +56,7 @@ DirData = os.path.join(dirpath,'Dataset','ABO')
 DirSaveData = os.path.join(dirpath,'Results','ABO','data')
 DirSave = os.path.join(dirpath,'Results','ABO','Probability map')
 DirModel = os.path.join(dirpath,'models','ABO','Trained Network Weights',dataType,endFile)
-DirMask = os.path.join(dirpath,'Markings','ABO',LayerType,'Grader1')
+DirMask = os.path.join(dirpath,'Markings','ABO',LayerType,'FinalGT')
 DirSaveMask = os.path.join(dirpath,'Results','ABO','Test Masks')
 DirThresh = os.path.join(dirpath,'Results','ABO','Thresholds')
 
