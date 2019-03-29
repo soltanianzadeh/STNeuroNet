@@ -5,7 +5,7 @@ addpath(genpath('Software'))
 opt.ID = '501271265';
 DirData = ['Dataset',filesep,'ABO',filesep];
 DirSaveData =['Results',filesep,'ABO',filesep,'data',filesep];
-DirMask = ['Markings',filesep,'ABO',filesep,'Layer175',filesep,'Grader1',filesep];
+DirMask = ['Markings',filesep,'ABO',filesep,'Layer175',filesep,'FinalGT',filesep];
 DirSaveMask = ['Results',filesep,'ABO',filesep,'data',filesep,'TempMask',filesep];
 
 %% Set parameters. Border crop values are set as default.
