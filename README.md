@@ -48,7 +48,7 @@ The how-to guides are available on [the Wiki][wiki-link].
 If you use any part of this software in your work, please cite Soltanian-Zadeh et al. 2019:
 
 * S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast and robust active neuron
-segmentation in two-photon calcium imaging using spatio-temporal deep-learning," Proceedings of the National Academy of Sciences (PNAS), 2019.
+segmentation in two-photon calcium imaging using spatio-temporal deep-learning," (IN PRESS), Proceedings of the National Academy of Sciences (PNAS), 2019. DOI: [10.1073/pnas.1812995116][pnas2019]
 
 
 If you use NiftyNet in your work, please cite [Gibson and Li, et al. 2018][cmpb2018]:
@@ -64,6 +64,7 @@ Lecture Notes in Computer Science, vol 10265. Springer, Cham.
 DOI: [10.1007/978-3-319-59050-9_28][ipmi2017]
 
 
+[pnas2019]: https://doi.org/10.1073/pnas.1812995116
 [ipmi2017]: https://doi.org/10.1007/978-3-319-59050-9_28
 [cmpb2018]: https://doi.org/10.1016/j.cmpb.2018.01.025
 
