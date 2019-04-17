@@ -15,7 +15,7 @@ opt.ds = 5;                     % downsampling factor
 %% run pre-processing 
 dataFile = [DirData,opt.ID,'_processed.nii.gz'];
 if ~exist(dataFile)
-    Y = prepareAllen(opt);
+    Y = prepareAllen(opt, DirData, DirData);
     vid = Y.video; clear Y
 else
     vid = dataFile; 
