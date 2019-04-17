@@ -12,7 +12,8 @@ function [Y] = prepareAllen(opt,DirData,DirSave)
 % 1/5th of the recordings
 if exist(DirData)
     % read dimension of data
-    infoVid = h5info(DirData);
+    fname = ls([DirData,'ophys_*',opt.ID,'*.h5']);
+    infoVid = h5info([DirData,fname]);
     Nx = infoVid.Datasets.Dataspace.Size(1); 
     Ny = infoVid.Datasets.Dataspace.Size(2);
     Nframes = infoVid.Datasets.Dataspace.Size(3);
@@ -22,7 +23,7 @@ if exist(DirData)
     
     for ii = 1:1
         startS = [1,1,startT(ii)];
-        Y.video = h5read(DirData,...
+        Y.video = h5read([DirData,fname],...
             '/data',startS,[Nx,Ny,floor(Nframes/5)],[1,1,1]); 
         %Crop border
         pixSize = 0.78; %um
