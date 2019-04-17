@@ -12,7 +12,7 @@ function [Y] = prepareAllen(opt,DirData,DirSave)
 % 1/5th of the recordings
 if exist(DirData)
     % read dimension of data
-    fname = ls([DirData,'ophys_*',opt.ID,'*.h5']);
+    fname = ['ophys_experiment_',opt.ID,'_concat_31Hz_0.h5'];
     infoVid = h5info([DirData,fname]);
     Nx = infoVid.Datasets.Dataspace.Size(1); 
     Ny = infoVid.Datasets.Dataspace.Size(2);
