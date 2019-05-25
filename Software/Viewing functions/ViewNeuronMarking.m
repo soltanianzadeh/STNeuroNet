@@ -2,7 +2,7 @@
 % Please cite this paper if you use any component of this software:
 % S. Soltanian-Zadeh, K. Sahingur, S. Blau, Y. Gong, and S. Farsiu, "Fast 
 % and robust active neuron segmentation in two-photon calcium imaging using 
-% spatio-temporal deep learning," Submitted to PNAS.
+% spatio-temporal deep learning," Proceedings of the National Academy of Sciences (PNAS), 2019.
 %
 % Released under a GPL v2 license.
 
@@ -27,6 +27,10 @@ function ViewNeuronMarking(imgs,opt)
     if size(imgs,1) ~= size(FinalMasks,1) || size(imgs,2)~= size(FinalMasks,2)
         error('Size mismatch between video and masks.')
     end
+    
+    % Remove potential empty masks
+    ind_empty= sum(reshape(FinalMasks,[],size(FinalMasks,3)),1)==0;
+    FinalMasks(:,:,ind_empty) = [];
     
     guitrace = zeros(size(FinalMasks,3),size(imgs,3));
     guitrace = RemoveNeuropil(imgs,FinalMasks,guitrace,1,1);
