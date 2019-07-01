@@ -11,7 +11,7 @@ You can adapt the existing network to your imaging data.
 * MATLAB GUI for manual marking of calcium imaging data
 
 ### System Requirements
-* Anaconda with Python 3.6
+* Anaconda with Python 3.5
 * MATLAB 2017b and MATLAB Runtime version 9.3
   * Neural Network Toolbox, Image Processing Toolbox, and the [GUI Layout Toolbox][gui-toolbox]
   * MATLAB Runtime can be acquired from [here][runtime-link]
