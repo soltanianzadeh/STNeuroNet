@@ -114,9 +114,9 @@ DirThresh = os.path.join(dirpath,'Results',subDir,'Thresholds')
 
 ## Check if save direcotries exist
 if not os.path.exists(DirSaveMask):
-    os.mkdir(DirSaveMask)
+    os.makedirs(DirSaveMask)
 if not os.path.exists(DirSaveData):
-    os.mkdir(DirSaveData)
+    os.makedirs(DirSaveData)
     
 
 ## read saved threshold values
