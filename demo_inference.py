@@ -60,6 +60,12 @@ DirMask = os.path.join(dirpath,'Markings','ABO',LayerType,'FinalGT')
 DirSaveMask = os.path.join(dirpath,'Results','ABO','Test Masks')
 DirThresh = os.path.join(dirpath,'Results','ABO','Thresholds')
 
+## Check if save directories exist
+if not os.path.exists(DirSaveMask):
+    os.makedirs(DirSaveMask)
+if not os.path.exists(DirSaveData):
+    os.makedirs(DirSaveData)
+
 #% Set parameters
 pixSize = 0.78         #um
 meanR = 5.85           # neuron radius in um
