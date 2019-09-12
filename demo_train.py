@@ -147,7 +147,7 @@ for ind in range(len(AllFiles)):
 excludeNames = [c for c in AllNames if c not in name]    
 if len(excludeNames):   
     mystr = list(mylist[indNoName[0]])
-    temp = mystr[:-1] + list(',')
+    temp = mystr[:-1] 
     for ind in range(len(excludeNames)):
         temp = temp + list(excludeNames[ind]) + list(',')
     mystr = "".join(temp[:-1]+ list('\n'))
